@@ -14,7 +14,7 @@ This project will be the easiest to implement if you are already using jQuery an
  <h3>js.js</h3>
   <p>
   There are 2 lines you will need to change. 
-  Both involve deciding whick DOM object you want to use as a "trigger" for the AJAX request. (Also called adding an Event 
+  Both involve deciding which DOM object you want to use as a "trigger" for the AJAX request. (Also called adding an Event 
    Listener to a DOM object).</p>
   
   <p>Choose your element that will trigger the AJAX request. (js.js, line 20) </p>
