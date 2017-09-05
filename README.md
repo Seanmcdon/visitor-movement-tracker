@@ -17,6 +17,7 @@ This project will be the easiest to implement if you are already using jQuery an
   <p> choose your element for this line (will trigger the AJAX request) </p>
   <code>
    $(document).on("mouseenter touchstart", "YOUR DOM ELEMENT HERE", function(e){ </code>
+   <p></p>
 
  <p> choose your element ( if different ) to send as data (the html text - like a heading, etc) </p>
   <code>	
