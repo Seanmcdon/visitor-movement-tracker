@@ -6,7 +6,7 @@ This project will be the easiest to implement if you are already using jQuery an
 
 <p>The first time a user scrolls on your page, you will be sent an email (Sorry, just visiting the page will not send an email!). The scroll event trigger will only occur once. Then, when the user clicks on the DOM element of your choice, you will be sent another email. You can have the text of any DOM element sent to you, so you have an idea of where users are clicking on your website.</p>
 
-<h2>Edit the files</h2>
+<h2>1. Download and edit the files</h2>
 
  <h3>js.js</h3>
   <p>
@@ -14,10 +14,11 @@ This project will be the easiest to implement if you are already using jQuery an
   Both involve deciding whick DOM object you want to use as a "trigger" for the AJAX request. (Also called adding an Event 
    Listener to a DOM object).</p>
   
+  <p> choose your element for this line (will trigger the AJAX request) </p>
   <code>
    $(document).on("mouseenter touchstart", "YOUR DOM ELEMENT HERE", function(e){ </code>
-   <br/>
-	
+
+ <p> choose your element ( if different ) to send as data (the html text - like a heading, etc) </p>
   <code>	
    var dataString = $("YOUR DOM ELEMENT HERE (DOES NOT HAVE TO BE THE SAME AS ABOVE)").html(); 
   </code> 
