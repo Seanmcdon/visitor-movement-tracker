@@ -1,4 +1,7 @@
 # visitor-movement-tracker
+
+Get an email when a REAL PERSON (not a bot) visits your personal/business website!
+
 A small piece of JS that will track page scrolling and clicks, and send an AJAX request (and send you an email)
 This project will be the easiest to implement if you are already using jQuery and PHP. 
 
