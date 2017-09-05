@@ -1,9 +1,8 @@
 # visitor-movement-tracker
 A small piece of JS that will track page scrolling and clicks, and send an AJAX request (and send you an email)
-
 This project will be the easiest to implement if you are already using jQuery and PHP. 
 
-#STEP 1 - Edit the files
+# STEP 1 - Edit the files
 
 js.js
 
@@ -15,15 +14,14 @@ js.js
 	
  var dataString = $("YOUR DOM ELEMENT HERE (DOES NOT HAVE TO BE THE SAME AS ABOVE)").html();   
    
-
 php
 
  Add your email address in this line of the file shown below: 
  mail('/* email goes here BETWEEN quotes, delete stars and slashes */', $emailSubject, $emailBody);
 
-STEP 2 -add files to the directory where your url(web site file) exists.
+# STEP 2 -add files to the directory where your url(web site file) exists.
 
-STEP 3 - add this one line to your url(web site file), either at the end of the 'body', or where the other JS files are loaded. 
+# STEP 3 - add this one line to your url(web site file), either at the end of the 'body', or where the other JS files are loaded. 
 
   <script src="js/js.js"></script>
 
