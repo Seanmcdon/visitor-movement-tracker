@@ -26,7 +26,7 @@ This project will be the easiest to implement if you are already using jQuery an
    
  <h3>php</h3>
   <p>
-  Add your email address in this line of the file shown below: </p>
+  Add your email address (sendMeAnEmail.php, line 7): </p>
   <code>
   mail('/* email goes here BETWEEN quotes, delete stars and slashes */', $emailSubject, $emailBody); </code>
 
