@@ -31,8 +31,8 @@ This project will be the easiest to implement if you are already using jQuery an
   mail('/* email goes here BETWEEN quotes, delete stars and slashes */', $emailSubject, $emailBody); </code>
 
 <h2>2. Add files</h2> 
-<p>Add to the directory where your url(web site file) exists.</p>
+<p>Add to the directory where your url(website) exists.</p>
 
-<h2>3. Edit your html(website url) </h2>
+<h2>3. Edit the html to include js.js </h2>
 Add this line to your html(website url), either at the end of the 'body', or where the other JS files are loaded. 
-<code> <script src="js/js.js"></script> </code>
+<code> <script src="js.js"></script> </code>
