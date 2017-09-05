@@ -14,12 +14,12 @@ This project will be the easiest to implement if you are already using jQuery an
   Both involve deciding whick DOM object you want to use as a "trigger" for the AJAX request. (Also called adding an Event 
    Listener to a DOM object).</p>
   
-  <p> choose your element for this line (will trigger the AJAX request) </p>
+  <p>Choose your element that will trigger the AJAX request. (js.js, line 20) </p>
   <code>
    $(document).on("mouseenter touchstart", "YOUR DOM ELEMENT HERE", function(e){ </code>
    <p></p>
 
- <p> choose your element ( if different ) to send as data (the html text - like a heading, etc) </p>
+ <p>Choose your element ( if different ) to send as the text data. (js.js, line 22) </p>
   <code>	
    var dataString = $("YOUR DOM ELEMENT HERE (DOES NOT HAVE TO BE THE SAME)").html(); 
   </code> 
