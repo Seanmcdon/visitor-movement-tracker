@@ -6,9 +6,7 @@ Summary:
 
 The first time a user scrolls on your page, you will be sent an email (Sorry, just visiting the page will not send an email!). This will only happen once per visit. Then, when the user clicks on the DOM element of your choice, you will be sent another email, with the text of the element that was clicked. 
 
-///////////////////////
-STEP 1 - Edit the files
-///////////////////////
+1. Edit the files
 
  js.js
   There are 2 lines you will need to change. 
@@ -23,11 +21,7 @@ STEP 1 - Edit the files
   Add your email address in this line of the file shown below: 
   mail('/* email goes here BETWEEN quotes, delete stars and slashes */', $emailSubject, $emailBody);
 
-////////////////////////////////////////////////////////////////////////
-STEP 2 -add files to the directory where your url(web site file) exists.
-////////////////////////////////////////////////////////////////////////
+2. Add files to the directory where your url(web site file) exists.
 
-///////////////////////////////////////////////////////////////////////
-STEP 3 - add this one line to your url(web site file), either at the end of the 'body', or where the other JS files are loaded. 
-///////////////////////////////////////////////////////////////////////
+3. Add this line to your url(web site file), either at the end of the 'body', or where the other JS files are loaded. 
  <script src="js/js.js"></script>
