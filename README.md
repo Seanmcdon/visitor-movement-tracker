@@ -3,7 +3,7 @@ A small piece of JS that will track page scrolling and clicks, and send an AJAX 
 
 This project will be the easiest to implement if you are already using jQuery and PHP. 
 
-STEP 1 - Edit the files
+#STEP 1 - Edit the files
 
 js.js
 
