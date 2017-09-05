@@ -21,7 +21,7 @@ This project will be the easiest to implement if you are already using jQuery an
 
  <p> choose your element ( if different ) to send as data (the html text - like a heading, etc) </p>
   <code>	
-   var dataString = $("YOUR DOM ELEMENT HERE (DOES NOT HAVE TO BE THE SAME AS ABOVE)").html(); 
+   var dataString = $("YOUR DOM ELEMENT HERE (DOES NOT HAVE TO BE THE SAME)").html(); 
   </code> 
    
  <h3>php</h3>
