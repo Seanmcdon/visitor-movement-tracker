@@ -31,3 +31,10 @@ $(document).ready(function(){
 	});
 
 });
+
+//or a non-jquery solution:
+
+document.addEventListener("scroll", function(e){ 
+	fetch("https://your-page-here");
+}, {once: true} );
+
